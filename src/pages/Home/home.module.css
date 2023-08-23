@@ -1,0 +1,34 @@
+.container {
+  border: 3px dotted #bbb;
+  max-width: 700px;
+  min-height: 400px;
+  margin: auto;
+  padding: 1rem;
+}
+
+.containerSum,
+.containerQntyCharacter,
+.containerQntyWords {
+  display: flex;
+  align-items: center;
+  margin: 2rem auto auto auto;
+}
+textarea {
+  padding: 0.5rem;
+  border: 1px solid #aaa;
+  border-radius: 5px 5px;
+  font-size: 1.2rem;
+  outline: 0;
+}
+
+span {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin-left: 0.5rem;
+  font-size: 1.2rem;
+  font-weight: 500;
+  line-height: 1.6;
+}
+
+.total {
+  margin: 0 0.5rem;
+}
